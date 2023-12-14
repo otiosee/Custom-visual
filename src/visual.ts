@@ -33,7 +33,7 @@ export class Visual implements IVisual {
     const categoryData = categorical.categories[0].values.map(String); // Assuming category data is strings
 
     // Logic for Y-axis
-    const yAxisFields = [''].concat(this.metricNames); // Adding an empty entry at the start
+    const yAxisFields = this.metricNames.filter(metric => categoryData.includes(metric));
 
     // Logic for X-axis
     const xAxisLabels = ['5', '25', '50', '75', '90', '95'];
