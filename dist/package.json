@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"manik","email":"manik@gmail.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/prediction275F8BA9740E04433AAC977372EDC6C5F.pbiviz.json"
+			}
+		],
+		"visual": {"name":"prediction2","displayName":"prediction2","guid":"prediction275F8BA9740E04433AAC977372EDC6C5F","visualClassName":"Visual","version":"1.0.0.0","description":"iii","supportUrl":"gudjj","gitHubUrl":"hello"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}
